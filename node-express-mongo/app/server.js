@@ -2,6 +2,12 @@ const express = require('express');
 
 const app = express();
 const { PORT } = require('./config/keys');
+const connectDB = require('./config/db');
+
+connectDB();
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
   res.send('Home page');

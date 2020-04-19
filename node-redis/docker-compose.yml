@@ -1,9 +1,10 @@
 version: '3'
 services:
   node-app:
+    restart: 'on-failure'
     build: './app'
     ports:
-      - '8081:8081'
+      - '4001:8081'
     depends_on:
       - 'redis-server'
   redis-server:

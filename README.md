@@ -20,4 +20,4 @@ $ docker-compose up
 | [`hello-world`](https://github.com/vargas88hugo/docker/tree/master/hello-world) | Simple example of hello world creating an image with Dockerfile, I used CMD to execute echo |
 | [`nginx-html`](https://github.com/vargas88hugo/docker/tree/master/nginx-html) | Create a base nginx image and configure the Dockerfile to copy an Html file to the new image |
 | [`node-area`](https://github.com/vargas88hugo/docker/tree/master/node-area) | Other example of copying a file to an image, in this case a javascript file |
-| [`node-express-mongo`](https://github.com/vargas88hugo/docker/tree/master/node-express-mongo) | In this project I used docker-compose to create three images, on from a Dockerfile for a NodeJS app, and the other two are a Mongo data base and a Mongo administrator | 
+| [`node-express-mongo`](https://github.com/vargas88hugo/docker/tree/master/node-express-mongo) | In this project I used docker-compose to create three images, one from a Dockerfile for a NodeJS app, and the other two are a Mongo data base and a Mongo administrator | 

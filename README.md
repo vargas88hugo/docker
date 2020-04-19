@@ -1,5 +1,5 @@
 # This is a practice about docker
-I built these projects by myself by extrating different sources of information like blogs, videos or documentation from official websites. My main purpose is to document my learning. if you have any idea, interesting project or suggestion please write me.
+I built these projects by extrating different sources of information like blogs, videos or documentation from official websites. My main purpose is to document my learning. if you have any idea, interesting project or suggestion please write me.
 
 ## Instructions
 For running a Dockerfile:
